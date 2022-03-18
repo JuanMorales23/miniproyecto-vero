@@ -23,7 +23,7 @@ const Page2 = () => {
         <div className="col">
           <h2>Información</h2>
           <br />
-          <p>
+          <p className="text-justify">
             La vaca, en el caso de la hembra, o toro, en el caso del macho, es
             un mamífero artiodáctilo de la familia de los bóvidos. Anteriormente
             era considerado una subespecie de Bos primigenius, pero un estudio

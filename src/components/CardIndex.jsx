@@ -1,24 +1,23 @@
 import React from "react";
-import perros from "../components/assets/img/perros.jpg";
 import Card from "react-bootstrap/Card";
-import { Button } from "bootstrap";
 import { Link } from "react-router-dom";
 
-const CardIndex = () => {
+const CardIndex = ({title, description, image, url}) => {
   return (
     <div>
-      <Card style={{ width: "20rem" }}>
-        <Card.Img variant="top" src={perros} />
+      <Card border="info" style={{ width: "20rem" }}>
+      <Card.Title>{title}</Card.Title>
+        <Card.Img variant="top" src={image} />
         <Card.Body>
+          
           <Card.Text>
-            Some quick example text to build on the card title and make up the
-            bulk of the card's content.
+            {description}
           </Card.Text>
-          <Link to={"/page1"} variant="primary" className="btn btn-dark">
+          <Link to={url} variant="primary" className="btn btn-dark">
             Ingresar
           </Link>
         </Card.Body>
-      </Card>
+      </Card> 
     </div>
   );
 };

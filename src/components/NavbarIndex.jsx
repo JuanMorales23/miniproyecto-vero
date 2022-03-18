@@ -12,7 +12,7 @@ const NavbarIndex = () => {
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
-      <NavDropdown title="Pardes de la cabeza" id="collasible-nav-dropdown">
+      <NavDropdown title="Partes de la cabeza" id="collasible-nav-dropdown">
         <NavDropdown.Item as={Link} to="/page1">Parte 1</NavDropdown.Item>
         <NavDropdown.Item as={Link} to="/page2">Parte 2</NavDropdown.Item>
         <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
