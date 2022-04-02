@@ -1,0 +1,8 @@
+.single-card:hover{
+    box-shadow: 5px 10px 20px 5px rgba(000, 000, 000, 0.271) !important;
+    transition: all 0.35s linear;
+}
+
+.title{
+    font-size: 2rem;
+}

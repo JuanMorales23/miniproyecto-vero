@@ -2,6 +2,7 @@ import React from 'react'
 import { Container, Nav, NavDropdown } from 'react-bootstrap'
 import Navbar from 'react-bootstrap/Navbar'
 import { Link } from 'react-router-dom'
+import '../components/assets/css/NavbarIndex.css'
 
 const NavbarIndex = () => {
   return (
