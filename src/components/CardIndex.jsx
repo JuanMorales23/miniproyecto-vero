@@ -6,7 +6,7 @@ import '../components/assets/css/Single-card.css'
 const CardIndex = ({title, description, image, url}) => {
   return (
     <div>
-      <Card className="single-card img-resposive animate__animated animate__fadeInUp">
+      <Card className="single-card img-resposive">
       <Card.Title className="title"><b>{title}</b></Card.Title>
         <Card.Img variant="top" src={image} className="img-responsive" />
         <Card.Body>

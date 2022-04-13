@@ -1,15 +1,13 @@
 import React from "react";
 import Cards from "./Cards";
 import NavbarIndex from "./NavbarIndex";
-
+import information from './assets/js/Index';
 
 const Index = () => {
   return (
     <>
-      <NavbarIndex />
-      <div>
-        <Cards />
-      </div>
+      <NavbarIndex information={information} />
+      <Cards information={information} />
     </>
   );
 };

@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar'
 import { Link } from 'react-router-dom'
 import '../components/assets/css/NavbarIndex.css'
 
-const NavbarIndex = () => {
+const NavbarIndex = ({information}) => {
   return (
     <>
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
@@ -13,12 +13,24 @@ const NavbarIndex = () => {
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
-      <NavDropdown title="Partes de la cabeza" id="collasible-nav-dropdown">
-        <NavDropdown.Item as={Link} to="/page1">Parte 1</NavDropdown.Item>
-        <NavDropdown.Item as={Link} to="/page2">Parte 2</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+      <NavDropdown title="Neurocraneo" id="collasible-nav-dropdown" className='separated-links'>
+        <NavDropdown.Item as={Link} to="/neurocraneo/frontal">Hueso frontal</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to="/neurocraneo/parietal">Hueso Parietal</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to="/neurocraneo/temporal">Hueso Temporal</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to="/neurocraneo/interparietal">Hueso Interparietal</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to="/neurocraneo/occipital">Hueso Occipital</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to="/neurocraneo/esfenoides">Hueso Esfenoides</NavDropdown.Item>
+      </NavDropdown>
+      <NavDropdown title="Vicerocraneo" id="collasible-nav-dropdown" >
+        <NavDropdown.Item as={Link} to="/viscerocraneo/incisivo">Hueso Incisivo</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to="/viscerocraneo/nasal">Hueso Nasal</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to="/viscerocraneo/maxilar">Hueso Maxilar</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to="/viscerocraneo/lagrimal">Hueso Lagrimal</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to="/viscerocraneo/cigomatico">Hueso Cigomatico</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to="/viscerocraneo/mandibula">Hueso Mandíbula</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to="/viscerocraneo/palatino">Hueso Palatino</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to="/viscerocraneo/vomer">Hueso Vómer</NavDropdown.Item>
+        <NavDropdown.Item as={Link} to="/viscerocraneo/Hioides">Hueso Hioides</NavDropdown.Item>
       </NavDropdown>
     </Nav>  
   </Navbar.Collapse> 

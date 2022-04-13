@@ -1,6 +1,21 @@
-.cards{
+.cards-index{
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+}
+
+.cards-bones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.title-h1{
+    padding-top: 4rem;
+}
+
+.text{
+    font-size: 120%;
 }

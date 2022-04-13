@@ -3,18 +3,18 @@ import vacas from "../img/vacas.jpg";
 const information = [
     {
         id: 1,
-        title: "Neurocraneo",
+        title: "Huesos del Neurocraneo",
         description: "Hola",
         image: perros,
-        url: "/page1"
-      },
-      {
+        url: "neurocraneo"
+    },
+    {
         id: 2,
-        title: "Viscerocraneo",
+        title: "Huesos del Viscerocraneo",
         description: "Hola2",
         image: vacas,
-        url: "/page2"
-      },
+        url: "viscerocraneo"
+    },
 ];
 
 export default information;

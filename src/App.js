@@ -4,9 +4,10 @@ import {
   Route
 } from "react-router-dom";
 import './App.css';
+import Bones from "./components/Bones";
 import Index from './components/Index';
-import Page1 from './components/Page1';
-import Page2 from "./components/Page2";
+import Neurocraneo from "./components/Neurocraneo";
+import Viscerocraneo from "./components/Viscerocraneo";
 
 
 function App() {
@@ -14,8 +15,10 @@ function App() {
     <div className="App">
       <Router>
         <Routes>
-          <Route path="/page1" element={<Page1 />} exact/>
-          <Route path="/page2" element={<Page2 />} exact/>
+          <Route path="/:part" element={<Bones />} exact/>
+          <Route path="/:part" element={<Bones />} exact/>
+          <Route path="/neurocraneo/:bone" element={<Neurocraneo />} exact/>
+          <Route path="/viscerocraneo/:bone" element={<Viscerocraneo />} exact/>
           <Route path="/" element={<Index />} />          
         </Routes>
     </Router>
