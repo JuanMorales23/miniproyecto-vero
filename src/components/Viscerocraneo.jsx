@@ -47,7 +47,6 @@ const Viscerocraneo = () => {
         </div>
         </div>        
         <div className="col">
-        <h2>Información</h2>
           <br />
           <p className="text-justify">
             {description}

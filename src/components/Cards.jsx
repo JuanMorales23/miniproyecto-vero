@@ -15,7 +15,7 @@ const Cards = ({ information }) => {
         {
           information.map(info => (
             <div className='col col-md-4' key={info.id}>          
-              <CardIndex title={info.title} description={info.description} image={info.image} url={info.url}/>    
+              <CardIndex id={info.id} title={info.title} description={info.description} image={info.image} url={info.url}/>    
             </div>       
           ))
         }         

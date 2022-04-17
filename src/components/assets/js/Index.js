@@ -4,7 +4,7 @@ const information = [
     {
         id: 1,
         title: "Huesos del Neurocraneo",
-        description: "Hola",
+        description: "Los ",
         image: perros,
         url: "neurocraneo"
     },

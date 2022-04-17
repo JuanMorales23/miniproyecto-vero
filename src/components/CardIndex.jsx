@@ -3,12 +3,14 @@ import Card from "react-bootstrap/Card";
 import { Link } from "react-router-dom";
 import '../components/assets/css/Single-card.css'
 
-const CardIndex = ({title, description, image, url}) => {
+const CardIndex = ({id, title, description, image, url}) => {
   return (
     <div>
-      <Card className="single-card img-resposive">
+      {
+       id === 1 ? 
+       <Card className="single-card1 img-resposive">
       <Card.Title className="title"><b>{title}</b></Card.Title>
-        <Card.Img variant="top" src={image} className="img-responsive" />
+        <Card.Img variant="top" className="img-responsive" />
         <Card.Body>
           <Card.Text>
             {description}
@@ -18,6 +20,20 @@ const CardIndex = ({title, description, image, url}) => {
           </Link>
         </Card.Body>
       </Card> 
+      :
+      <Card className="single-card2 img-resposive">
+      <Card.Title className="title"><b>{title}</b></Card.Title>
+        <Card.Img variant="top" className="img-responsive" />
+        <Card.Body>
+          <Card.Text>
+            {description}
+          </Card.Text>
+          <Link to={url} variant="primary" className="btn btn-dark">
+            Ingresar
+          </Link>
+        </Card.Body>
+      </Card> 
+      }
     </div>
   );
 };

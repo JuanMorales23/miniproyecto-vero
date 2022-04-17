@@ -41,7 +41,6 @@ const Neurocraneo = () => {
           </div>
           <br />
           <div className="col-md- centrar justify-content-md-center">
-            <h2>Información</h2>
             <br />
             <p>{description}</p>
             <br />
