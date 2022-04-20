@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import NavbarIndex from "./NavbarIndex";
-import "./assets/css/Pages.css";
 import { useParams } from "react-router-dom";
 import contentN from "./assets/js/Neurocraneo";
 
@@ -31,7 +30,7 @@ const Neurocraneo = () => {
   }, [bone]);
 
   return (
-    <div className="fondo">
+    <div className={bone}>
       <NavbarIndex />
       <div className="container animate__animated animate__fadeInUp">
         <div className="row title-h1">
@@ -39,15 +38,12 @@ const Neurocraneo = () => {
           <div className="img-responsive image">
             <img src={img} alt="vacas"></img>
           </div>
-          <br />
           <div className="col-md- centrar justify-content-md-center">
-            <br />
             <p>{description}</p>
-            <br />
           </div>
         </div>
       </div>
-    </div>
+      </div>
   );
 };
 

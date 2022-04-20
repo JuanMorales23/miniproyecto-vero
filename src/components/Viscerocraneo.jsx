@@ -31,29 +31,18 @@ const Viscerocraneo = () => {
   }, [bone]);
   
   return (
-    <div className="fondo">
+    <div className={bone}>
       <NavbarIndex />
-      <br />
-      <br />
-      <br />
-      <h1>{title}</h1>
-      <br />
-      <br />
       <div className="container animate__animated animate__fadeInUp">
-        <div className='row'>
-        <div className="col">          
-        <div className="img-responsive">
-          <img src={img} alt="vacas"></img>
+        <div className="row title-h1">
+          <h1>{title}</h1>
+          <div className="img-responsive image">
+            <img src={img} alt="vacas"></img>
+          </div>
+          <div className="col-md- centrar justify-content-md-center">
+            <p>{description}</p>
+          </div>
         </div>
-        </div>        
-        <div className="col">
-          <br />
-          <p className="text-justify">
-            {description}
-          </p>
-          <br />
-        </div>
-      </div>
       </div>
     </div>
   )

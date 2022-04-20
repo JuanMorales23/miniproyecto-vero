@@ -22,7 +22,7 @@ const Bones = () => {
   }, []);
   
     return(
-    <div>
+    <div className='index'>
       <NavbarIndex information={information} />
       {part === "neurocraneo" ? <NeuroCards information={type} /> : <VisceroCards information={type} /> }
     </div>

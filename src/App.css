@@ -1,5 +1,8 @@
 .App {
   text-align: center;
-  background: #f8f8d9;
-  height: 100vh;
+}
+
+.index{
+  background: #ffeff0;
+  height: 100%;
 }

@@ -8,11 +8,9 @@
 }
 
 .single-card1{
-    background: rgb(238,174,202);
-background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 67%);
+    background: #fc466b;
 }
 
 .single-card2{
-    background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: #fdbb2d;
 }

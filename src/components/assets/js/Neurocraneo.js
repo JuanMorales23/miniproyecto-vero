@@ -22,11 +22,11 @@ const contentN = [
         url: "temporal"
     }, 
     {
-        bone: "interparietal",
-        title: "Hueso Interparietal",
-        description: "El hueso interparietal se sitúa entre los huesos parietales y el occipital. Al llegar a la etapa adulta este hueso se fusiona con el occipital y el parietal.(könig, Liebich, 2005)",
+        bone: "pterigoides",
+        title: "Hueso Pterigoides",
+        description: "Info",
         boneImg: bones,
-        url: "interparietal"
+        url: "pterigoides"
     }, 
     {
         bone: "occipital",

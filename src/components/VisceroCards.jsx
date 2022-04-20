@@ -1,19 +1,26 @@
 import { useEffect, useState } from 'react';
+import { Col, Row } from 'react-bootstrap';
 import contentV from './assets/js/Viscerocraneo';
-import CardIndex from './CardIndex';
+import PagesCards from './PagesCards';
 
 const VisceroCards = ({ information }) => {
   return (
-    <div>
+    <div className=''>
       <div className="container">
         <div className="row animate__animated animate__fadeInUp">
           <h1 className='title-h1'><b>{information.title}</b></h1>
           {
-             contentV.map(info => (
-              <div className='col col-md-4' key={info.bone}>          
-                <CardIndex title={info.title} image={info.boneImg} url={info.url}/>    
-              </div>       
-            ))
+            <Row xs={1} sm={2} md={3} className="g-3">
+              {
+                contentV.map(info => (
+                  <Col>
+                    <div className='' key={info.bone}>
+                      <PagesCards title={info.title} image={info.boneImg} url={info.url} />
+                    </div>
+                  </Col>
+                ))
+              }
+            </Row>
           }
         </div>
       </div>

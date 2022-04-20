@@ -19,3 +19,13 @@
 .text{
     font-size: 120%;
 }
+
+.viscerocraneo{
+    background: #fdbb2d;
+    border-radius: 5px;
+}
+
+.neurocraneo{
+    background: #fc466b;
+    border-radius: 5px;
+}
