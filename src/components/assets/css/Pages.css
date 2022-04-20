@@ -25,12 +25,12 @@
   }
   
   .pterigoides{
-    background-color: gainsboro;
+    background-color: #38a95f;
   
   }
   
   .occipital{
-    background-color: #455da7;
+    background-color: #463e6d;
     
   }
   
@@ -41,45 +41,33 @@
   
   .incisivo{
     background-color: #fffeb7;
-    height: 150%;
   }
   
   .nasal{
     background: #a4e9fe;
-    height: 100vh;
   }
   
   .maxilar{
-    background-color: #b6dcdc;
-    height: 100vh;
+    background-color: #a7f7c7;
   }
   
   .lagrimal{
-    background-color: #c3c9f1;
-    height: 100vh;
+    background-color: #9e99b9;
   }
   
   .cigomatico{
     background-color: #418222;
-    height: 100vh;
   }
   
   .mandibula{
     background-color: #fadbe6;
-    height: 100vh;
   }
   
   .palatino{
-    background-color: #785e4d;
-    height: 100vh;
+    background-color: #caae93;
   }
   
   .vomer{
     background-color: #ff9f73;
-    height: 100vh;
-  }
-  
-  .hioides{
-    background-color: #cce993;
-    height: 100vh;
+
   }
