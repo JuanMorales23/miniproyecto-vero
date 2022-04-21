@@ -1,10 +1,16 @@
 import React from 'react'
 import NavbarIndex from './NavbarIndex'
+import "react-image-gallery/styles/css/image-gallery.css";
+import ImageGallery from 'react-image-gallery';
+import images from './assets/js/Images';
 
 const Gallery = () => {
   return (
-    <div>
+    <div className='index'>
         <NavbarIndex />
+        <div className='separate'>
+        <ImageGallery items={images} showIndex={true} />
+        </div>
     </div>
   )
 }

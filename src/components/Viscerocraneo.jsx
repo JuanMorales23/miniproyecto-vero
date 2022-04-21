@@ -11,9 +11,9 @@ const Viscerocraneo = () => {
   const [description, setDescription] = useState();
 
   const filterBone = (obj) => {
-    if(obj.bone === bone){
+    if (obj.bone === bone) {
       return true;
-    }else{
+    } else {
       return false;
     }
   }
@@ -26,10 +26,10 @@ const Viscerocraneo = () => {
     setDescription(array[0].description);
   }
 
-  useEffect(() =>{
+  useEffect(() => {
     validate();
   }, [bone]);
-  
+
   return (
     <div className={`${bone}Pages`}>
       <NavbarIndex />
@@ -37,10 +37,10 @@ const Viscerocraneo = () => {
         <div className="row title-h1">
           <h1>{title}</h1>
           <div className="">
-          <img src={img} alt={title} className="img-fluid"></img>
+            <img src={img} alt={title} className="img-fluid"></img>
           </div>
           <div className="col-md- centrar justify-content-md-center">
-            <p>{description}</p>
+            <p className="text">{description}</p>
           </div>
         </div>
       </div>

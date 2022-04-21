@@ -1,17 +1,20 @@
 import React from 'react'
 import NavbarIndex from './NavbarIndex'
+import '../components/assets/css/Cards.css'
+import bibliografia from './assets/js/Bibliografia'
 
 const Bibliography = () => {
   return (
-    <div>
+    <div className='index'>
         <NavbarIndex />
-        <br />
-        <br />
-        <h1>Bibliografía</h1>
-        <p>Cabeza. Anatomía veterinaria: Básica, comparativa y clínica (1 ed; pp: 288).</p>
-        <p>Cabeza. Anatomía veterinaria: Básica, comparativa y clínica (1 ed; pp: 288).</p>
-        <p>Cabeza. Anatomía veterinaria: Básica, comparativa y clínica (1 ed; pp: 288).</p>
-        <p>Cabeza. Anatomía veterinaria: Básica, comparativa y clínica (1 ed; pp: 288).</p>
+        <h1 className='title-h1'>Bibliografía</h1>
+        <div>
+            {
+                bibliografia.map(b => (
+                    <p key={b.id} className="text">{b.description}</p>
+                ))
+            }
+        </div>
     </div>
   )
 }

@@ -18,7 +18,6 @@
 
 .text{
     font-size: 120%;
-    text-align: justify;
 }
 
 .viscerocraneo{
@@ -33,79 +32,80 @@
 
 .frontal{
     background: #dc2d3a;
-    border-radius: 5px;
+    border-radius: 6px;
+    color: white;
   }
   
   .parietal{
     background: #fed302;
-    border-radius: 5px;
+    border-radius: 6px;
   
   }
   
   .temporal{
     background: #79bc53;
-    border-radius: 5px;
+    border-radius: 6px;
   }
   
   .pterigoides{
-    background: #4f4776;
-    border-radius: 5px;
-  
+    background: #082b63;
+    border-radius: 6px;
+    color: white;
   }
   
   .occipital{
     background: #463e6d;
-    border-radius: 5px;
-    
+    border-radius: 6px;
+    color: white;
   }
   
   .esfenoides{
     background: #f38804;
-    border-radius: 5px;
+    border-radius: 6px;
   
   }
   .incisivo{
     background: #fffeb7;
-    border-radius: 5px;
+    border-radius: 6px;
   }
   
   .nasal{
-    background: #a4e9fe;
-    border-radius: 5px;
+    background: #96def4;
+    border-radius: 6px;
   }
   
   .maxilar{
     background: #a7f7c7;
-    border-radius: 5px;
+    border-radius: 6px;
   }
   
   .lagrimal{
     background: #9e99b9;
-    border-radius: 5px;
+    border-radius: 6px;
   }
   
   .cigomatico{
     background: #fed3c2;
-    border-radius: 5px;
+    border-radius: 6px;
   }
   
   .mandibula{
     background: #fadbe6;
-    border-radius: 5px;
+    border-radius: 6px;
   }
   
   .palatino{
     background: #caae93;
-    border-radius: 5px;
+    border-radius: 6px;
   }
   
   .vomer{
     background: #ff9f73;
-    border-radius: 5px;
+    border-radius: 6px;
 
   }
 
   .etmoides{
     background: #a9c24c;
-    border-radius: 5px;
+    border-radius: 6px;
   }

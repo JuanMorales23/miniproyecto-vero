@@ -32,8 +32,8 @@ const NavbarIndex = ({ information }) => {
                 <NavDropdown.Item as={Link} to="/viscerocraneo/palatino">Hueso Palatino</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/viscerocraneo/vomer">Hueso Vómer</NavDropdown.Item>
               </NavDropdown>
-            <Nav.Link as={Link} to="/galeria">Galeria</Nav.Link>
-            <Nav.Link as={Link} to="/bibliografia">Bibliografía</Nav.Link>
+            <Nav.Link as={Link} to="/galeria" className='separated-links'>Galería</Nav.Link>
+            <Nav.Link as={Link} to="/bibliografia" className='separated-links'>Bibliografía</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
