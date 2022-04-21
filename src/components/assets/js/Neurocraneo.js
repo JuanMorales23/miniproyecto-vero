@@ -17,7 +17,7 @@ const contentN = [
     {
         bone: "parietal",
         title: "Hueso Parietal",
-        description: "Es un hueso par, plano y parejo. Se une a la parte dorsal del hueso temporal,y a su vez se une a la parte ventral del temporal, se encuentra entre los huesos occipital e interparietal por un lado. En el bovino forma una parte de la superficie nucal. König, H  y Liebich, H. (2005).",
+        description: "Es un hueso es par, plano y parejo. Se une a la parte dorsal del hueso temporal,y a su vez se une a la parte ventral del hueso frontal, se encuentra entre los huesos occipital e interparietal por un lado. En el bovino forma una parte de la superficie nucal. König, H  y Liebich, H. (2005).",
         boneImg: parietal,
         url: "parietal"
     }, 
