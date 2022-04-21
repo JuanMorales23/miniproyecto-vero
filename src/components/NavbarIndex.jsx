@@ -30,7 +30,6 @@ const NavbarIndex = ({information}) => {
         <NavDropdown.Item as={Link} to="/viscerocraneo/mandibula">Hueso Mandíbula</NavDropdown.Item>
         <NavDropdown.Item as={Link} to="/viscerocraneo/palatino">Hueso Palatino</NavDropdown.Item>
         <NavDropdown.Item as={Link} to="/viscerocraneo/vomer">Hueso Vómer</NavDropdown.Item>
-        <NavDropdown.Item as={Link} to="/viscerocraneo/hioides">Hueso Hioides</NavDropdown.Item>
       </NavDropdown>
     </Nav>  
   </Navbar.Collapse> 

@@ -36,8 +36,8 @@ const Viscerocraneo = () => {
       <div className="container animate__animated animate__fadeInUp">
         <div className="row title-h1">
           <h1>{title}</h1>
-          <div className="img-responsive image">
-            <img src={img} alt="vacas"></img>
+          <div className="">
+          <img src={img} alt={title} className="img-fluid"></img>
           </div>
           <div className="col-md- centrar justify-content-md-center">
             <p>{description}</p>

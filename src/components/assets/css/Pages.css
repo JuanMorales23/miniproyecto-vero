@@ -4,6 +4,11 @@
     color: rgb(18, 18, 19);
 }
 
+.index{
+  background: #ffeff0;
+  height: 100%;
+}
+
 .centrar{
     justify-content: center;
     text-align: center;
@@ -11,36 +16,34 @@
 
 .frontal{
     background: #dc2d3a;
-    border-radius: 5px;
+    height: 100%;
   }
   
   .parietal{
-    background-color: #fed302;
+    background: #fed302;
   
   }
   
   .temporal{
-    background-color: #79bc53;
-   
+    background: #79bc53;
   }
   
   .pterigoides{
-    background-color: #38a95f;
+    background: #38a95f;
   
   }
   
   .occipital{
-    background-color: #463e6d;
+    background: #463e6d;
     
   }
   
   .esfenoides{
-    background-color: #f38804;
+    background: #f38804;
   
   }
-  
   .incisivo{
-    background-color: #fffeb7;
+    background: #fffeb7;
   }
   
   .nasal{
@@ -48,26 +51,26 @@
   }
   
   .maxilar{
-    background-color: #a7f7c7;
+    background: #a7f7c7;
   }
   
   .lagrimal{
-    background-color: #9e99b9;
+    background: #9e99b9;
   }
   
   .cigomatico{
-    background-color: #418222;
+    background: #418222;
   }
   
   .mandibula{
-    background-color: #fadbe6;
+    background: #fadbe6;
   }
   
   .palatino{
-    background-color: #caae93;
+    background: #caae93;
   }
   
   .vomer{
-    background-color: #ff9f73;
+    background: #ff9f73;
 
   }

@@ -7,8 +7,8 @@ const Cards = ({ information }) => {
   return (
     <div className='container'>
       <div className='row cards-index animate__animated animate__fadeInUp'>
-        <h1 className='title-h1'>Modelo anatómico</h1>
-        <h2 className=''><b>Huesos del neurocráneo y el viscerocráneo</b></h2>
+        <h1 className='title-h1'><b>Modelo anatómico</b></h1>
+        <h2 className=''>Huesos del neurocráneo y el viscerocráneo</h2>
         <p className='text'>Los huesos del cráneo se encuentran organizados en dos regiones particulares,
           el neurocráneo y el viscerocráneo (cara). Los huesos del cráneo están conformados por todas
           aquellas estructuras óseas que forman la cavidad craneana, ocular y cavidad timpánica y que protege

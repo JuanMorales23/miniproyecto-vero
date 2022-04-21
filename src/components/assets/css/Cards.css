@@ -29,3 +29,78 @@
     background: #fc466b;
     border-radius: 5px;
 }
+
+.frontal{
+    background: #dc2d3a;
+    border-radius: 5px;
+    height: 100%;
+  }
+  
+  .parietal{
+    background: #fed302;
+    border-radius: 5px;
+  
+  }
+  
+  .temporal{
+    background: #79bc53;
+    border-radius: 5px;
+  }
+  
+  .pterigoides{
+    background: #38a95f;
+    border-radius: 5px;
+  
+  }
+  
+  .occipital{
+    background: #463e6d;
+    border-radius: 5px;
+    
+  }
+  
+  .esfenoides{
+    background: #f38804;
+    border-radius: 5px;
+  
+  }
+  .incisivo{
+    background: #fffeb7;
+    border-radius: 5px;
+  }
+  
+  .nasal{
+    background: #a4e9fe;
+    border-radius: 5px;
+  }
+  
+  .maxilar{
+    background: #a7f7c7;
+    border-radius: 5px;
+  }
+  
+  .lagrimal{
+    background: #9e99b9;
+    border-radius: 5px;
+  }
+  
+  .cigomatico{
+    background: #418222;
+    border-radius: 5px;
+  }
+  
+  .mandibula{
+    background: #fadbe6;
+    border-radius: 5px;
+  }
+  
+  .palatino{
+    background: #caae93;
+    border-radius: 5px;
+  }
+  
+  .vomer{
+    background: #ff9f73;
+    border-radius: 5px;
+
+  }

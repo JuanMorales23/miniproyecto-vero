@@ -1,12 +1,10 @@
 import {
   BrowserRouter as Router,
   Routes,
-  Route,
-  useParams
+  Route
 } from "react-router-dom";
 import './App.css';
 import Bones from "./components/Bones";
-import Frontal from "./components/Frontal";
 import Index from './components/Index';
 import Neurocraneo from "./components/Neurocraneo";
 import Viscerocraneo from "./components/Viscerocraneo";

@@ -1,5 +1,3 @@
-import perros from "../img/perros.jpg";
-import vacas from "../img/vacas.jpg";
 const information = [
     {
         id: 1,
