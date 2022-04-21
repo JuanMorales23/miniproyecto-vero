@@ -3,7 +3,7 @@ import nasal from "../img/hueso nasal.jpg";
 import maxilar from "../img/hueso maxilar.jpg";
 import lagrimal from "../img/hueso lagrimal.jpg";
 import cigomatico from "../img/hueso cigomatico.jpg";
-import mandibula from "../img/hueso vomer.jpg";
+import mandibula from "../img/hueso mandibula.jpg";
 import palatino from "../img/hueso palatino.jpg";
 import vomer from "../img/hueso vomer.jpg";
 
@@ -11,56 +11,56 @@ const contentV = [
     {
         bone: "incisivo",
         title: "Hueso Incisivo",
-        description: "Los dos huesos frontales se sitúan entre el cráneo y la cara, y sus mitades se hallan unidas por la sutura interfrontal. La parte orbital forma la pared medial de la órbita, en cuyo borde inferior se encuentra el agujero etmoidal. (König, Liebich, 2005).  Es el hueso sobre el cual se desarrollan los cuernos.",
+        description: "En el cuerpo del hueso incisivo se encuentra el borde libre de las superficies labiales y palatinas está modelado como apófisis alveolares. Los rumiantes constituyen una excepción de esto ya que no presentan dientes en el incisivo. König, H  y Liebich, H. (2005).",
         boneImg: incisivo,
         url: "incisivo"
     }, 
     {
         bone: "nasal",
         title: "Hueso Nasal",
-        description: "Es un hueso es par, plano y parejo. Se une dorsalmente al hueso temporal, entre los huesos occipital e interparietal por un lado y los huesos frontales por el otro.",
+        description: "Forma la base ósea del dorso de la nariz y presenta una cara externa ligeramente cóncava. Ambos huesos nasales, que están unidos medialmente por una sutura plana, emiten hacia sus extremos una apófisis rostral. Este hueso forma el techo de la cavidad nasal. König, H  y Liebich, H. (2005).",
         boneImg: nasal,
         url: "nasal"
     }, 
     {
         bone: "maxilar",
         title: "Hueso Maxilar",
-        description: "Está formado por la fusión de varios huesos. Podemos diferenciar la parte escamosa que participa con su cara para el cerebro en la formación de la pared de la cavidad del cráneo.(könig, Liebich, 2005). En este hueso encontramos la superficie donde encaja el cóndilo de la mandíbula para formar la articulación temporomandibular.",
+        description: "Forma la base ósea de la mayor parte de la cara, moldea las paredes faciales laterales, las cavidades nasal y oral y el techo del paladar y está comunicado con todos los restantes huesos de la cara. El cuerpo del maxilar con su pared levantada lateralmente forma la superficie externa de la cara o cara facial. En los rumiantes esta cresta comienza en el tubérculo facial a la altura del cuarto molar pero caudalmente su desarrollo es pobre. König, H  y Liebich, H. (2005).",
         boneImg: maxilar,
         url: "maxilar"
     }, 
     {
         bone: "lagrimal",
         title: "Hueso Lagrimal",
-        description: "El hueso interparietal se sitúa entre los huesos parietales y el occipital. Al llegar a la etapa adulta este hueso se fusiona con el occipital y el parietal.(könig, Liebich, 2005)",
+        description: "El hueso lagrimal es un pequeño hueso que se halla ubicado cerca del ángulo ocular medial, formando parte del lateral de la cara y de la órbita, se encuentra unido con el hueso frontal, el cigomático y el maxilar. En el bovino la superficie orbitaria es muy grande, y se ha transformado en la bulla lagrimal, una protuberancia de paredes delgadas cuya cavidad forma parte del seno maxilar.  König, H  y Liebich, H. (2005).",
         boneImg: lagrimal,
         url: "lagrimal"
     }, 
     {
         bone: "cigomatico",
         title: "Hueso Cigomatico",
-        description: "parte caudal del cráneo, forma la pared nucal de este, en este hueso podemos encontrar el agujero magno (abertura donde pasa la médula espinal), los cóndilos occipitales es la porción donde se articula la primera vértebra cervical llamada atlas, conducto hipogloso (pasaje para el nervio hipogloso), proceso yugular (proyección lateral de la base del cóndilo occipital). (SHIVELY)",
+        description: "Participa en la formación de la órbita y del arco cigomático. En los rumiantes presenta forma de S, el hueso cigomático está neumatizado, con variaciones según la especie, y participa de esta manera en el sistema de los senos maxilares. König, H  y Liebich, H. (2005).",
         boneImg: cigomatico,
         url: "cigomatico"
     }, 
     {
         bone: "mandibula",
         title: "Hueso Mandíbula",
-        description: "Forma la porción anterior del suelo de la cavidad craneana y está compuesto por dos segmentos similares, el nasal y anterior hueso preesfenoides y el nucal y posterior hueso basiesfenoides, en los mamíferos domésticos al principio permanecen separados por una sutura cartilaginosa, que se osificara más tarde.",
+        description: "Es el hueso que soporta todas las piezas dentales inferiores, Shively, M (1987).",
         boneImg: mandibula,
         url: "mandibula"
     }, 
     {
         bone: "palatino",
         title: "Hueso Palatino",
-        description: "Forma la porción anterior del suelo de la cavidad craneana y está compuesto por dos segmentos similares, el nasal y anterior hueso preesfenoides y el nucal y posterior hueso basiesfenoides, en los mamíferos domésticos al principio permanecen separados por una sutura cartilaginosa, que se osificara más tarde.",
+        description: "Está situado entre el hueso maxilar, el hueso esfenoides y el hueso pterigoides; el hueso palatino comunica la cavidad nasal por medio del meato nasofaríngeo con la cavidad nasofaríngea.  König, H  y Liebich, H. (2005). Es el principal componente del paladar duro.  Shively, M (1987).",
         boneImg: palatino,
         url: "palatino"
     }, 
     {
         bone: "vomer",
         title: "Hueso Vómer",
-        description: "Forma la porción anterior del suelo de la cavidad craneana y está compuesto por dos segmentos similares, el nasal y anterior hueso preesfenoides y el nucal y posterior hueso basiesfenoides, en los mamíferos domésticos al principio permanecen separados por una sutura cartilaginosa, que se osificara más tarde.",
+        description: "Es un hueso impar, este se encuentra en la profundidad del esqueleto de la cara, atraviesa la cavidad nasal y se encuentra ubicado sobre la cresta nasal. Sus dos láminas laterales, que se encuentran de manera erguida, forman junto con la lámina basal el surco septal que recibe el tabique nasal. König, H  y Liebich, H. (2005).",
         boneImg: vomer,
         url: "vomer"
     }

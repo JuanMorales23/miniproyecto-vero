@@ -31,7 +31,7 @@ const Viscerocraneo = () => {
   }, [bone]);
   
   return (
-    <div className={bone}>
+    <div className={`${bone}Pages`}>
       <NavbarIndex />
       <div className="container animate__animated animate__fadeInUp">
         <div className="row title-h1">

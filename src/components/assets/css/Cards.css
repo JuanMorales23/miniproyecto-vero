@@ -18,26 +18,26 @@
 
 .text{
     font-size: 120%;
+    text-align: justify;
 }
 
 .viscerocraneo{
     background: #fdbb2d;
-    border-radius: 5px;
+    border-radius: 6px;
 }
 
 .neurocraneo{
     background: #fc466b;
-    border-radius: 5px;
+    border-radius: 6px;
 }
 
 .frontal{
     background: #dc2d3a;
     border-radius: 5px;
-    height: 100%;
   }
   
   .parietal{
-    background: #175d21;
+    background: #fed302;
     border-radius: 5px;
   
   }
@@ -48,7 +48,7 @@
   }
   
   .pterigoides{
-    background: #0c3c6b;
+    background: #4f4776;
     border-radius: 5px;
   
   }

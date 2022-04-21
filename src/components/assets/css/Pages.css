@@ -17,3 +17,83 @@
 .text{
   font-size: 120%;
 }
+
+.frontalPages{
+  background: #dc2d3a;
+  min-height: 100vh;
+ 
+}
+
+.parietalPages{
+  background: #fed302;
+  min-height: 100vh;
+
+}
+
+.temporalPages{
+  background: #79bc53;
+  min-height: 100vh;
+}
+
+.pterigoidesPages{
+  background: #4f4776;
+  min-height: 100vh;
+
+}
+
+.occipitalPages{
+  background: #463e6d;
+  min-height: 100vh;
+  
+}
+
+.esfenoidesPages{
+  background: #f38804;
+  min-height: 100vh;
+
+}
+.incisivoPages{
+  background: #fffeb7;
+  min-height: 100vh;
+}
+
+.nasalPages{
+  background: #a4e9fe;
+  min-height: 100vh;
+}
+
+.maxilarPages{
+  background: #a7f7c7;
+  min-height: 100vh;
+}
+
+.lagrimalPages{
+  background: #9e99b9;
+  min-height: 100vh;
+}
+
+.cigomaticoPages{
+  background: #fed3c2;
+  min-height: 100vh;
+}
+
+.mandibulaPages{
+  background: #fadbe6;
+  min-height: 100vh;
+}
+
+.palatinoPages{
+  background: #caae93;
+  min-height: 100vh;
+}
+
+.vomerPages{
+  background: #ff9f73;
+  min-height: 100vh;
+
+}
+
+.etmoidesPages{
+  background: #a9c24c;
+  min-height: 100vh;
+}
