@@ -10,7 +10,7 @@ const CardIndex = ({ part, title, description, image, url }) => {
         <div className={url}>
           <Card.Title className="title"><b>{part}</b></Card.Title>
           <Card.Body>
-            <Card.Text>
+            <Card.Text className="text">
               {description}
             </Card.Text>
             <Link to={url} variant="primary" className="btn btn-dark">

@@ -14,63 +14,6 @@
     text-align: center;
 }
 
-.frontal{
-    background: #dc2d3a;
-    height: 100%;
-  }
-  
-  .parietal{
-    background: #fed302;
-  
-  }
-  
-  .temporal{
-    background: #79bc53;
-  }
-  
-  .pterigoides{
-    background: #38a95f;
-  
-  }
-  
-  .occipital{
-    background: #463e6d;
-    
-  }
-  
-  .esfenoides{
-    background: #f38804;
-  
-  }
-  .incisivo{
-    background: #fffeb7;
-  }
-  
-  .nasal{
-    background: #a4e9fe;
-  }
-  
-  .maxilar{
-    background: #a7f7c7;
-  }
-  
-  .lagrimal{
-    background: #9e99b9;
-  }
-  
-  .cigomatico{
-    background: #418222;
-  }
-  
-  .mandibula{
-    background: #fadbe6;
-  }
-  
-  .palatino{
-    background: #caae93;
-  }
-  
-  .vomer{
-    background: #ff9f73;
-
-  }
+.text{
+  font-size: 120%;
+}

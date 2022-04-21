@@ -47,6 +47,13 @@ const contentN = [
         description: "Forma la porción anterior del suelo de la cavidad craneana y está compuesto por dos segmentos similares, el nasal y anterior hueso preesfenoides y el nucal y posterior hueso basiesfenoides, en los mamíferos domésticos al principio permanecen separados por una sutura cartilaginosa, que se osificara más tarde.",
         boneImg: esfenoides,
         url: "esfenoides"
+    }, 
+    {
+        bone: "etmoides",
+        title: "Hueso Etmoides",
+        description: "(Description)",
+        boneImg: esfenoides,
+        url: "etmoides"
     }
 ];
 

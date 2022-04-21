@@ -40,7 +40,7 @@ const Neurocraneo = () => {
             <img src={img} alt={title} className="img-fluid"></img>
           </div>
           <div className="col-md- centrar justify-content-md-center">
-            <p>{description}</p>
+            <p className="text">{description}</p>
           </div>
         </div>
       </div>
