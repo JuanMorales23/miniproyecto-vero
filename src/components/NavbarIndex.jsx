@@ -27,7 +27,7 @@ const NavbarIndex = ({ information }) => {
                 <NavDropdown.Item as={Link} to="/viscerocraneo/nasal">Hueso Nasal</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/viscerocraneo/maxilar">Hueso Maxilar</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/viscerocraneo/lagrimal">Hueso Lagrimal</NavDropdown.Item>
-                <NavDropdown.Item as={Link} to="/viscerocraneo/cigomatico">Hueso Cigomatico</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to="/viscerocraneo/cigomatico">Hueso Cigomático</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/viscerocraneo/mandibula">Hueso Mandíbula</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/viscerocraneo/palatino">Hueso Palatino</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/viscerocraneo/vomer">Hueso Vómer</NavDropdown.Item>

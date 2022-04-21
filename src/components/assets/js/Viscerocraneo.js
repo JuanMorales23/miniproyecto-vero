@@ -38,7 +38,7 @@ const contentV = [
     }, 
     {
         bone: "cigomatico",
-        title: "Hueso Cigomatico",
+        title: "Hueso Cigomático",
         description: "Participa en la formación de la órbita y del arco cigomático. En los rumiantes presenta forma de S, el hueso cigomático está neumatizado, con variaciones según la especie, y participa de esta manera en el sistema de los senos maxilares. König, H  y Liebich, H. (2005).",
         boneImg: cigomatico,
         url: "cigomatico"
