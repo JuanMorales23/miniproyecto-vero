@@ -8,12 +8,14 @@ const Bibliography = () => {
     <div className='index'>
         <NavbarIndex />
         <h1 className='title-h1'>Bibliografía</h1>
-        <div>
+        <div className='biblio'>
+          <ul>
             {
                 bibliografia.map(b => (
-                    <p key={b.id} className="text">{b.description}</p>
+                    <li key={b.id} className="textB">{b.description}</li>
                 ))
             }
+          </ul>
         </div>
     </div>
   )

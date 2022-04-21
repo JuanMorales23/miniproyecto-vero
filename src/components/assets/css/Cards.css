@@ -20,6 +20,18 @@
     font-size: 120%;
 }
 
+.textB{
+  margin-top: 15px;
+  font-size: 120%;
+  text-align: left;
+}
+
+.biblio{
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
 .viscerocraneo{
     background: #fdbb2d;
     border-radius: 6px;
